@@ -1,19 +1,39 @@
-h1,p{
+h1,
+p {
      font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-h1{
+
+h1 {
      align-self: center;
      color: red;
 }
-a{
-     color: green;
-     text-decoration: none;
-     font-size: larger;
+
+/* Psuedo selectors */
+h1:hover {
+     color: blue;
 }
-*{
+
+li:first-child a {
+     color: rgba(0, 0, 255, 0.356);
+}
+
+li:nth-child(2) a {
+     color: red
+}
+
+li:last-child a {
+     color: rgba(27, 27, 158, 0.356);
+}
+
+li:only-child {
+     color: rgb(255, 0, 200);
+}
+
+* {
      background: pink;
 }
-img{
+
+img {
      border-color: blue;
      border: 10px;
      border-radius: 50px;
